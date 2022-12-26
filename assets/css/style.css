@@ -1,5 +1,6 @@
 .top-section {
     background-color: beige;
+    height: 90px;
 }
 
 .top-nav {
@@ -7,4 +8,13 @@
     display: inline;
     float: right;
     padding: 0 10px 0 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
 }
