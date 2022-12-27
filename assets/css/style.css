@@ -5,7 +5,6 @@
 
 .top-nav {
     background-color: beige;
-    display: inline;
     float: right;
     padding: 0 10px 0 10px;
 }
@@ -15,6 +14,23 @@ h1 {
 }
 
 #logo {
-    max-width: 100%;
-    height: auto;
+    position: relative;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: rgb(59, 92, 70);
+}
+
+#personal-p {
+    max-width: 35%;
+    margin: 8px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(66, 47, 17);
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
 }
