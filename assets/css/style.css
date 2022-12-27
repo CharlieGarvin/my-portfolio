@@ -25,6 +25,8 @@ body {
 }
 
 #personal-p {
+    position: relative;
+    left: 60%;
     max-width: 35%;
     margin: 8px;
     padding: 10px;
@@ -33,4 +35,8 @@ body {
     border: solid 2px black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px black;
+}
+
+#personal-p:hover {
+    cursor: default;
 }
