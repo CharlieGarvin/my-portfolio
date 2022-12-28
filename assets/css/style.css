@@ -60,6 +60,11 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    
+    max-width: 50vw;
+}
+
+.other-work {
+    width: 25em;
+    height: 12em;
+    padding: 1em;
 }
