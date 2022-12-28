@@ -34,10 +34,6 @@ body {
     background-color: rgb(59, 92, 70);
 }
 
-.about-me {
-    background: url("forest-silhouette.jpg");
-}
-
 #personal-p {
     position: relative;
     top: 10rem;
@@ -54,8 +50,15 @@ body {
     border: solid 2px black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px black;
+    background-image: none;
 }
 
 #personal-p:hover {
     cursor: default;
+}
+
+.about-me {
+    background-image: url("../img/forest-silhouette.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
