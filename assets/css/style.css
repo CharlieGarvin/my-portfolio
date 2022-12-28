@@ -76,3 +76,24 @@ body {
     height: 15em;
     padding: 1em;
 }
+
+#best-work:hover {
+    border: 5px solid blue;
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+#best-text {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+#best-text:hover {
+    cursor: pointer;
+}
