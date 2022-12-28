@@ -34,6 +34,10 @@ body {
     background-color: rgb(59, 92, 70);
 }
 
+.about-me {
+    background: url("forest-silhouette.jpg");
+}
+
 #personal-p {
     position: relative;
     top: 10rem;
