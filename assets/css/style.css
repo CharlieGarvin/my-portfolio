@@ -61,10 +61,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 50vw;
+    position: relative;
+    top: 20em;
+    left: 46%;
+}
+
+#best-work {
+    position: relative;
+    left: 10em;
 }
 
 .other-work {
-    width: 25em;
-    height: 12em;
+    width: 30em;
+    height: 15em;
     padding: 1em;
 }
