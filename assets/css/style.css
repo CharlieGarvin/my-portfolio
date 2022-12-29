@@ -135,3 +135,13 @@ h2 {
     background-color: black;
     padding: 10px;
 }
+
+#box .meet-me {
+    display: inline;
+    position: relative;
+    bottom: -400px;
+    left: 18%;
+    color: white;
+    padding: 1em;
+    font-size: 2em;
+}
