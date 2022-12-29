@@ -1,11 +1,15 @@
 #top-section {
+    position: fixed;
     background-color: beige;
-    height: 15vh;
+    width: 100%;
+    height: 15%;
+    z-index: 1;
 }
 
 .top-nav {
+    display: inline;
     float: right;
-    padding: 0 10px 0 10px;
+    padding: 2em;
     font-family: monospace;
     font-size: 2em;
 }
@@ -16,7 +20,11 @@
 }
 
 h1 {
+    display: inline-block;
     font-size: 40px;
+    font-family: system-ui;
+    padding: 1em 0em 0em 1em;
+    
 }
 
 h1:hover {
@@ -24,10 +32,10 @@ h1:hover {
 }
 
 #logo {
-    position: relative;
+    position: absolute;
     left: 45%;
-    width: 100px;
-    height: 100px;
+    width: 145px;
+    height: 145px;
 }
 
 body {
@@ -43,6 +51,7 @@ body {
     word-spacing: .2em;
     text-align: center;
     max-width: 35%;
+    max-height: 25%;
     margin: 8px;
     padding: 10px;
     color: white;
@@ -50,7 +59,6 @@ body {
     border: solid 2px black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px black;
-    background-image: none;
 }
 
 #personal-p:hover {
@@ -144,4 +152,8 @@ h2 {
     color: white;
     padding: 1em;
     font-size: 2em;
+    font-family: monospace;
+    background-color:  rgb(66, 47, 17);
+    border: 2px solid black;
+    border-radius: 20px;
 }
