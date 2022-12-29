@@ -1,9 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #top-section {
-    position: fixed;
+    position: static;
     background-color: beige;
-    width: 100%;
-    height: 15%;
-    z-index: 1;
 }
 
 .top-nav {
@@ -14,7 +15,12 @@
     font-size: 2em;
 }
 
-.navbar:hover {
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
     text-shadow: 1px 1px 2px rgb(255, 145, 0);
     cursor: pointer;
 }
@@ -29,13 +35,6 @@ h1 {
 
 h1:hover {
     cursor: default;
-}
-
-#logo {
-    position: absolute;
-    left: 45%;
-    width: 145px;
-    height: 145px;
 }
 
 body {
@@ -144,11 +143,20 @@ h2 {
     padding: 10px;
 }
 
+#logo {
+    position: absolute;
+    bottom:-915px;
+    left: 3%;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+
 #box .meet-me {
     display: inline;
     position: relative;
     bottom: -400px;
-    left: 18%;
+    left: 23%;
     color: white;
     padding: 1em;
     font-size: 2em;
@@ -156,4 +164,9 @@ h2 {
     background-color:  rgb(66, 47, 17);
     border: 2px solid black;
     border-radius: 20px;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
 }
