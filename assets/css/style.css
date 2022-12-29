@@ -78,22 +78,60 @@ body {
 }
 
 #best-work:hover {
-    border: 5px solid blue;
     transition: .5s ease;
     opacity: 0.3;
 }
 
 #best-text {
-    transition: .5s ease;
-    opacity: 1;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 1em;
+    left: 5em;
     color: white;
     background-color: black;
     padding: 20px;
 }
 
-#best-text:hover {
+h2 {
     cursor: pointer;
+}
+
+.project-image:hover {
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+#project2 {
+    position: absolute;
+    bottom: 17em;
+    left: 3em;
+    color: white;
+    background-color:  black;
+    padding: 10px;
+}
+
+#project3 {
+    position: absolute;
+    bottom: 17em;
+    left: 32em;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+#project4 {
+    position: absolute;
+    bottom: 2em;
+    left: 3em;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+#project5 {
+    position: absolute;
+    bottom: 2em;
+    left: 32em;
+    color: white;
+    background-color: black;
+    padding: 10px;
 }
