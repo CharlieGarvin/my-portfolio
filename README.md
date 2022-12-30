@@ -8,5 +8,5 @@ updating my protfolio as I get better and a developer. It will be updated it ter
 No install required
 
 ## Screenshot
-![](/screenshots/portfolio.1)
-![](/screenshots/portfolio.2)
+![](/screenshots/portfolio.1.PNG)
+![](/screenshots/portfolio.2.PNG)
