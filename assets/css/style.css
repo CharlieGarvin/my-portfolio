@@ -76,6 +76,12 @@ body {
 #best-work {
     position: relative;
     left: 10em;
+    }
+
+#best-pic {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 75%
 }
 
 .other-work {
