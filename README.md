@@ -7,6 +7,9 @@ updating my protfolio as I get better and a developer. It will be updated it ter
 ## Installation
 No install required
 
+## Website link
+[Portfolio] (https://charliegarvin.github.io/my-portfolio/)
+
 ## Screenshot
 ![](/screenshots/portfolio.1.PNG)
 ![](/screenshots/portfolio.2.PNG)
